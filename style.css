@@ -1,3 +1,41 @@
 
 
+a{
+    text-decoration: none;
+}
+
+button
+{
+    border-radius: 3px;
+    padding: 4px 7px 4px 7px;
+    background-color: rgb(12, 240, 42);
+
+    
+    
+}
+button:hover
+{
+    background-color: aquamarine;
+    cursor: pointer;
+}
 /* NAVBAR */
+#Navbar
+{
+ margin: 6px 4% 6px 4%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#Navbar a
+{
+    color: black;
+    margin: 8px
+}
+#Navbar a:hover
+{
+    color:orange;
+    
+}
+
