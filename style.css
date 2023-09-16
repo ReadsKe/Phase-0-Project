@@ -1,41 +1,132 @@
 
+*
+{
+    
+    font-family: inherit;
+    font-size: 100%;
 
+}
+body
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#bccbde;
+}
 a{
     text-decoration: none;
+    color: #fff;
 }
+
 
 button
 {
     border-radius: 3px;
     padding: 4px 7px 4px 7px;
-    background-color: rgb(12, 240, 42);
-
-    
-    
+    background-color: #49dbd6;
+    font-weight: 500;   
 }
 button:hover
 {
-    background-color: aquamarine;
+    background-color:#e57841;
     cursor: pointer;
 }
 /* NAVBAR */
 #Navbar
 {
- margin: 6px 4% 6px 4%;
+ margin: 2% 5px 4% 5px;
  display: flex;
  justify-content: space-between;
  align-items: center;
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-family:sans-serif;
+ border-radius: 4px;
+ position:static
+  
 
 }
 #Navbar a
 {
     color: black;
-    margin: 8px
+    margin: 8px;
+    font-weight: 700;
 }
 #Navbar a:hover
 {
-    color:orange;
+    color:#1dbab4;
+    
+}
+/* Landing-Page */
+#Landing-Page
+{
+    width: 80vw;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+#Landing-Page .column 
+{
+    width: 50%;
+}
+#Landing-Page h1
+{
+    font-size:xx-large;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#Landing-Page img
+{
+    width: 80vh;
+    margin-right: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+{
+    background-color: #c2dde6;
+    font-family: inherit;
+    padding: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+
     
 }
 
+Footer .Row2
+{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    align-items: baseline;
+
+}
