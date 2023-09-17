@@ -91,9 +91,11 @@ button:hover
 #Services
 {
     height: 50vh;
-    width: 90vh;
+    width: 100vh;
     padding: 20px;
     margin: auto;
+    background-size: cover;
+    background-color: #92a8c7;
 }
 #Services h1
 {
@@ -111,11 +113,13 @@ button:hover
 {
     width: 30%;
     border: 1px solid#aeebe9;
-    border-radius: 4px;
+    border-radius: 5px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     text-align: center;
+    min-height: 30vh;
+    
    
 }
 #Services .cards-container .cards i
