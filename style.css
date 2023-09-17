@@ -56,8 +56,8 @@ button:hover
 /* Landing-Page */
 #Landing-Page
 {
-    width: 80vw;
-    height: 70vh;
+    width: 94vw;
+    height: 60vh;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -80,10 +80,50 @@ button:hover
     width: 80vh;
     margin-right: 10%;
 }
+#Landing-Page .column .button
+{
+    display: flex;
+    justify-content: end;
+    
+}
+/* services */
+
 #Services
 {
-    margin: 50vh;
-    height: 70vh;
+    height: 50vh;
+    width: 90vh;
+    padding: 20px;
+    margin: auto;
+}
+#Services h1
+{
+    font-size:x-large;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#Services .cards-container
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+#Services .cards-container .cards
+{
+    width: 30%;
+    border: 1px solid#aeebe9;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+#Services .cards-container .cards i
+{
+    font-size: xx-large;
+    font-weight: 800;
+    color: #ec763b;
+
 }
 
 
@@ -114,13 +154,12 @@ button:hover
 
 
 
-
-
+/* footer */
 footer
 {
     background-color: #c2dde6;
     font-family: inherit;
-    padding: 3%;
+    padding: 1%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 300;
 
