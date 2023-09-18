@@ -2,14 +2,14 @@
 *
 {
     
-    font-family: inherit;
     font-size: 100%;
+    margin: 0px;
 
 }
 body
 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color:#bccbde;
+    background-color:#a5bbdb;
 }
 a{
     text-decoration: none;
@@ -95,12 +95,12 @@ button:hover
     padding: 20px;
     margin: auto;
     background-size: cover;
-    background-color: #92a8c7;
 }
 #Services h1
 {
     font-size:x-large;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 
 }
 #Services .cards-container
@@ -132,32 +132,6 @@ button:hover
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
 footer
 {
@@ -178,3 +152,23 @@ Footer .Row2
     align-items: baseline;
 
 }
+Footer #icons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+Footer #icons .whatsapp
+{
+    font-size: xx-large;
+    font-weight: 400;
+    
+
+    
+}
+Footer #icons .github
+{
+    font-size: xx-large;
+    
+}
+
